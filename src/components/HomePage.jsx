@@ -1,4 +1,4 @@
-import birdLogo from "/home/user/find-the-bird/src/assets/download (1).png";  // Adjust the path as neededimport UploadPage from './components/UploadPage'
+import birdLogo from '/src/assets/download (1).png'; // Adjust the path as neededimport UploadPage from './components/UploadPage'
 import ResultsPage from "./ResultsPage";
 const HomePage = ({ navigateToGuide, navigateToUpload, birdData }) => {
     // Popular species images (use bird data related images if available)

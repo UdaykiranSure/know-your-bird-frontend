@@ -1,4 +1,5 @@
-import birdLogo from "/home/user/find-the-bird/src/assets/download (1).png";  // Adjust the path as neededimport UploadPage from './components/UploadPage'
+import birdLogo from '/src/assets/download (1).png';
+ // Adjust the path as neededimport UploadPage from './components/UploadPage'
 
 const Header = () => {
     return (
