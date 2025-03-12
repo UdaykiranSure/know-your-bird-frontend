@@ -22,7 +22,7 @@ import './App.css'
         formData.append("image", blob, "bird.jpg"); // Append blob as a file
         const identifyBirdApiCall = async (imageFile) => {
 
-        const response = await fetch('https://5000-idx-know-your-bird-1740906739367.cluster-a3grjzek65cxex762e4mwrzl46.cloudworkstations.dev/identify-bird', {
+        const response = await fetch('https://know-your-bird-tkhn.vercel.app/identify-bird', {
             method: 'POST',
             body: formData,
         });
